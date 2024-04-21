@@ -8,9 +8,9 @@ const router = createBrowserRouter ([
     path : '/',
     element : <LayoutPublic />,
     errorElement : <ErrorPage />,
-    childrem : [
+    children : [
       {
-        path : '/',
+        index: true,
         element: <Home />
       }
     ]
