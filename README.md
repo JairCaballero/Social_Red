@@ -69,6 +69,7 @@ Colores Secundarios:
 Gris Oscuro (#333333)
 Gris Claro (#F2F2F2)
 Azul Marino (#003366)
+color gris fondos #f5f5f5
 
 
 Usar el blanco como color de fondo principal.

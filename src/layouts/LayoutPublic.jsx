@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom"
+import HeaderPublic from "../components/header/HeaderPublic"
 
 const LayoutPublic = () => {
   return (
     <div>
-      <p>LayoutPublic</p>
+      <HeaderPublic />
       <Outlet />
     </div>
   )
