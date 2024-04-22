@@ -5,7 +5,9 @@ const LayoutPublic = () => {
   return (
     <div>
       <HeaderPublic />
-      <Outlet />
+      <div className="container mx-auto">
+        <Outlet />
+      </div>
     </div>
   )
 }
