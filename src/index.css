@@ -13,18 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 
   /* f5f5f5 */
-  --bg-principal : #ebebeb;
-  --bg-secondary : #fff;
+  --primary : #ebebeb;
+  --secondary : #fff;
 }
 
 body {
-  background-color: var(--bg-principal);
+  background-color: var(--primary);
 }
 
-.bg-principal {
-  background-color: var(--bg-principal);
+.bg-primary {
+  background-color: var(--primary);
 }
 
 .bg-secondary {
-  background-color: var(--bg-secondary);
+  background-color: var(--secondary);
 }
