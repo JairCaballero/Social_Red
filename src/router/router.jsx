@@ -23,20 +23,20 @@ const router = createBrowserRouter ([
   },
   {
     path: '/user',
-    // children: [
-    //   {
-    //     path: '/config'
-    //   },
-    //   {
-    //     path: '/friends'
-    //   },
-    //   {
-    //     path: '/groups'
-    //   },
-    //   {
-    //     path: '/config-group/:id'
-    //   },
-    // ]
+    children: [
+      // {
+      //   path: '/config'
+      // },
+      // {
+      //   path: '/friends'
+      // },
+      // {
+      //   path: '/groups'
+      // },
+      // {
+      //   path: '/config-group/:id'
+      // },
+    ]
   },
 ])
 
